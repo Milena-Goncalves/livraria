@@ -1,0 +1,14 @@
+#flipbook {
+  width: 400px;
+  height: 300px;
+}
+
+#flipbook .page {
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+#flipbook .hard {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+}

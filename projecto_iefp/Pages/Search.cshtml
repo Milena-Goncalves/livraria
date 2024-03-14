@@ -1,0 +1,72 @@
+﻿@page
+@model projecto_iefp.Pages.FiltroModel
+@using Newtonsoft.Json
+@using projecto_iefp.Models;
+@{
+}
+
+<div class="container my-5 py-2">
+    <div class="row d-flex justify-content-center">
+        <div class="col-md-12 col-lg-10 col-xl-8">
+            <div class="search-div">
+                <form method="get" action="/Search">
+                    <select class="form-select" aria-label="Default select example" name="searchTerm" id="titulo">
+                        <option selected>Filtre comentários por título</option>
+                        @foreach (var titulo in Model.titulo)
+                        {
+                            <option value="@titulo">@titulo</option>
+                        }
+                    </select>
+                    <button type="submit" name="commentButton">Pesquisar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="d-flex justify-content-center align-items-center">
+    @if (Model.comentario.Any())
+    {
+        <h1>Comentários @Html.DisplayFor(modelItem => Model.comentario.First().LivroTitulo)</h1>
+        }
+        else
+        {
+            string selectedTitulo = Request.Query["searchTerm"];
+        <div class="no-comen">
+            <h1>Ainda não há comentários sobre este livro!</h1>
+            <h5>Faça o primeiro comentário.</h5>
+
+            <a asp-area="" asp-page="/CreateComentario" asp-route-titulo="@selectedTitulo" class="criar-comen">Comentar</a>
+        </div>
+        
+        
+    }
+
+</div>
+
+@foreach (var comentario in Model.comentario)
+{
+
+    <div class="container my-5 py-2">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-12 col-lg-10 col-xl-8">
+                <div class="card" style="border: 2px solid white; background: none; border-radius: 1.5rem;">
+                    <div class="card-body">
+                        <div class="d-flex flex-start align-items-center">
+                            <i class="bi bi-person-circle icon-comentario"></i>
+                            <div>
+                                <h6 class="fw-bold text-primary mb-1" style="color:#27a776 !important">@Html.DisplayFor(modelItem => comentario.Nome)</h6>
+                                <p class="text-muted small mb-0">
+                                    @Html.DisplayFor(modelItem => comentario.LivroTitulo)
+                                </p>
+                            </div>
+                        </div>
+                        <p class="mt-3 mb-4 pb-2">
+                            @Html.DisplayFor(modelItem => comentario.ComentarioTexto)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

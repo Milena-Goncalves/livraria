@@ -1,0 +1,81 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = projecto_iefp
+build_property.RootNamespace = projecto_iefp
+build_property.ProjectDir = /Users/milenagoncalves/Documents/word-journey/projecto_iefp/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/milenagoncalves/Documents/word-journey/projecto_iefp
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/milenagoncalves/Documents/word-journey/projecto_iefp/Pages/About.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWJvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Documents/word-journey/projecto_iefp/Pages/Comentarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ29tZW50YXJpb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Documents/word-journey/projecto_iefp/Pages/CreateComentario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JlYXRlQ29tZW50YXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Documents/word-journey/projecto_iefp/Pages/CreateUsuario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JlYXRlVXN1YXJpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Documents/word-journey/projecto_iefp/Pages/Datails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGF0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Documents/word-journey/projecto_iefp/Pages/generos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvZ2VuZXJvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Documents/word-journey/projecto_iefp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Documents/word-journey/projecto_iefp/Pages/Livros.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTGl2cm9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Documents/word-journey/projecto_iefp/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Documents/word-journey/projecto_iefp/Pages/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Documents/word-journey/projecto_iefp/Pages/Pedido.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGVkaWRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Documents/word-journey/projecto_iefp/Pages/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Documents/word-journey/projecto_iefp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Documents/word-journey/projecto_iefp/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Documents/word-journey/projecto_iefp/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/milenagoncalves/Documents/word-journey/projecto_iefp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1p3lnbf72l

@@ -1,0 +1,29 @@
+﻿@page
+@model projecto_iefp.Pages.LoginModel
+@{
+}
+
+
+<div class="row justify-content-center">
+    <div class="col-lg-6 text-center" style="width: 80%;">
+        <h2>Login"</h2>
+    </div>
+</div>
+
+<div class="d-flex justify-content-center align-items-center" style="margin: 10%;">
+    <form method="POST" style="width: 30vw;">
+
+        <div class="form-group m-3">
+            <label class="ref-detalhes" for="email">E-mail</label>
+            <input required type="email" class="form-control" id="email" name="email" placeholder="Insira seu e-mail" />
+        </div>
+
+        <div class="form-group m-3">
+            <label class="ref-detalhes" for="senha">Senha</label>
+            <input required type="password" class="form-control" id="senha" name="senha" placeholder="Crie uma senha" />
+        </div>
+        <div class="d-flex justify-content-center">
+           <input class="criar-comen" style="border: 2px;" type="submit" value="Criar" /> 
+        </div>
+    </form>
+</div>
